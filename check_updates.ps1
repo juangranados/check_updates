@@ -14,7 +14,7 @@ Function Check-NewUpdates {
 	.PARAMETER Type
 		Pre-search criteria. Finds updates of a specific type, such as 'Driver' and 'Software'. Default value contains all updates.
 
-    .EXAMPLE
+    	.EXAMPLE
 		Get list of available updates from Microsoft Update Server, if last check was outside of grace period.
 	
         	PS D:\Powershell> .\Check-Updates.ps1
